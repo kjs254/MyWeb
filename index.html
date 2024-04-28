@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Homepage</title>
+        <style>
+            html, body {
+                height: 100%;
+            }
+            body {
+                margin: 0;
+            }
+            a {
+                text-decoration: none;
+            }
+            p {
+                line-height: 2.0;
+            }
+            h1 {
+                font-size: 250%;
+            }
+            .sidebar {
+                width: 300px;
+                height: 100%;
+                background: #e7e7e7;
+                border-right: 1px solid ;
+                padding-left: 40px;
+                padding-top: 20px;
+                position: fixed;
+            }
+            .sidebar img {
+                width: 260px;
+            }
+            
+            .sidebar li{
+                width: 240px;
+                list-style: none;
+                margin-top: 10px;
+                border-radius: 10px;
+                padding: 10px;
+                font-weight: bold;
+            }
+            .sidebar li:hover {
+                background-color: #ccc;
+                color: rgb(0, 132, 255);
+            }
+            .sidebar a {
+                color: black;
+                font-size: 200%;
+                text-decoration: none;
+            }
+            .center {
+                background-color: #fff;
+                margin: 0 auto;
+                padding-top: 10px;
+                padding-left: 340px;
+            }
+
+            .post {
+                margin-top: 200px;
+                margin-left: 10px;
+            }
+            .table {
+                float: right;
+                margin: 70px;
+            }
+            table, th, td {
+                border-collapse: collapse;
+                border: 1px solid black;
+                padding: 8px;
+            }
+            th {
+                background-color: #ccc;
+            }
+            .sideimg {
+                width: 10px;
+            }
+            .post img {
+                float: left;
+                width: 50px;
+                margin-left: 5px;
+                margin-right: 15px;
+            }
+            
+            
+        </style>
+    </head>
+    <body>
+        <div class="sidebar">
+            <a href="#"><img src="images/자료조사.png" alt="LOGO" class="logo image" ></a>
+            <a href="#"><li>ABOUT ME</li></a>
+            <a href="#"><li>This Page</li></a>
+            <a href="#"><li>HTML</li></a>
+            <a href="#"><li>CSS</li></a>
+        </div>
+            <div class="table">
+                <table>
+                    <tr>
+                        <th>사진</th>
+                        <td><img src="images/photo.png" alt="증명사진" class="photo"></td>
+                    </tr>
+                    <tr>
+                        <th>이름</th>
+                        <td>김지산(金智山)</td>
+                    </tr>
+                    <tr>
+                        <th>생년월일</th>
+                        <td>2000-05-26 (양력)</td>
+                    </tr>
+                    <tr>
+                        <th>학력</th>
+                        <td>
+                            <li>창신초등학교 (졸업)</li>
+                            <li>거성중학교 (졸업)</li>
+                            <li>동인고등학교 (졸업)</li>
+                            <li>국립부경대학교 (재학)</li>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>신체</th>
+                        <td>173cm | 70kg | A형</td>
+                    </tr>
+                    <tr>
+                        <th>MBTI</th>
+                        <td>ISTP</td>
+                    </tr>
+                    <tr>
+                        <th>링크</th>
+                        <td>
+                            <a href="https://www.instagram.com/kj_mountain/"><i class="fa-brands fa-instagram"></i> INSTAGRAM</a>
+                            <br>
+                            <a href="https://github.com/kjs254"><i class="fa-brands fa-github"></i> github</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="center">
+
+                <div class="post">
+                    <img src="images/뿌공이(대표형).png" alt="뿌공이">
+                    <h1>ABOUT ME</h1>
+                    <p> &nbsp;안녕하십니까. 국립부경대학교 정보융합대학 전자정보통신공학부 정보통신공학전공 19학번 김지산입니다. 이렇게 스스로 나의 웹 문서를 작성해보는 것은 머리털 나고 처음인것 같네요.
+                        HTML 실습을 몇 번 해보면서 문서 한 두개 정도만 만들어봤지 이렇게 CSS를 활용해서 다양한 구색을 갖춘건 색다른 경험이고 배울 수 있는 점이 많이 있는 것 같습니다.
+                        저는 정보통신공학과로 입학하면서 기초물리학, 공업수학, 전자기학 등 전형적인 공대 과목들을 수강해 왔지만 1년전, <strong>자료구조</strong> 과목을 수강해보고 코딩에 흥미를 접하게 되었습니다.
+                        다양한 알고리즘 문제를 풀어보거나, Chat-GPT API를 가져와 이미지 생성을 구현해보는 등 파면 팔수록 재밌는 요소를 발견했습니다.
+                        그러다 <strong>컴퓨터 네트워크</strong> 과목에서 웹 서버의 개념을 처음 접하였고 request와 response 등 어떤 식으로 브라우저에 우리가 보는 화면이 나타나는지 얼추 알 수 있었습니다. 
+                        하지만 직접 웹 페이지를 개발하고자 했을 땐 너무나도 모르는게 많았고 제일 중요한 HTML을 어떻게 작성하는지 모르고 있었습니다. 이번 <strong>파이썬장고웹프로그래밍입문</strong>을 통해 웹 개발의 기반을
+                        다질 수 있다면 좋겠습니다.
+                    </p>
+                    <br><br><br><br><br><br><br>
+                </div>
+
+                <hr>
+
+                <div class="post">
+                    <img src="images/뿌공이(대표형).png" alt="뿌공이">
+                    <h1>This Page</h1>
+                    <p> 이 웹페이지는 <strong>파이썬장고웹프로그래밍입문</strong> 과목에서 배운 내용을 토대로 작성하는 개인 페이지입니다. 사이드바와 자기소개로 구성되어있습니다.
+                        css의 hover를 사용하여 버튼처럼 보이도록 설정했고 html의 table 태그를 이용하여 개인정보가 담긴 표를 작성해보았습니다. 그 외에도 다양한 css를 통해 무난하게 작성해보았습니다.
+                        자바스크립트를 활용해 좀 더 동적인 페이지를 개발하는 것이 다음 목표입니다.
+                    </p>
+                    <br><br><br><br><br><br><br>
+                </div>
+            </div>
+
+  
+        </div>
+
+        <script src="https://kit.fontawesome.com/56dcb09cbf.js" crossorigin="anonymous"></script>
+    </body>
+</html>
